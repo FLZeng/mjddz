@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/media2_widget_black_opacity_70" android:layout_width="wrap_content" android:layout_height="@dimen/media2_widget_settings_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/media2_widget_settings_height">
+        <ImageView android:id="@id/check" android:layout_width="@dimen/media2_widget_settings_icon_size" android:layout_height="@dimen/media2_widget_settings_icon_size" android:layout_margin="8.0dip" android:src="@drawable/media2_widget_ic_check" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/media2_widget_settings_height">
+        <TextView android:textSize="@dimen/media2_widget_settings_main_text_size" android:textColor="@color/media2_widget_white" android:id="@id/text" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/media2_widget_settings_text_height" android:paddingStart="2.0dip" />
+    </RelativeLayout>
+</LinearLayout>

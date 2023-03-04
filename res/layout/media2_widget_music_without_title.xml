@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/media2_widget_music_view_default_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/album" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/media2_widget_ic_default_album_image" android:scaleType="fitCenter" />
+</FrameLayout>

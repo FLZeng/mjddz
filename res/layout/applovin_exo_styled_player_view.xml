@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.applovin.exoplayer2.ui.AspectRatioFrameLayout android:layout_gravity="center" android:id="@id/al_exo_content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/al_exo_shutter" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/al_exo_artwork" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <com.applovin.exoplayer2.ui.SubtitleView android:id="@id/al_exo_subtitles" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/al_exo_buffering" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        <TextView android:textSize="@dimen/al_exo_error_message_text_size" android:textColor="@color/al_exo_white" android:gravity="center" android:layout_gravity="center" android:id="@id/al_exo_error_message" android:background="@drawable/applovin_exo_rounded_rectangle" android:paddingLeft="@dimen/al_exo_error_message_text_padding_horizontal" android:paddingTop="@dimen/al_exo_error_message_text_padding_vertical" android:paddingRight="@dimen/al_exo_error_message_text_padding_horizontal" android:paddingBottom="@dimen/al_exo_error_message_text_padding_vertical" android:layout_width="wrap_content" android:layout_height="@dimen/al_exo_error_message_height" android:layout_marginBottom="@dimen/al_exo_error_message_margin_bottom" />
+    </com.applovin.exoplayer2.ui.AspectRatioFrameLayout>
+    <FrameLayout android:id="@id/al_exo_ad_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/al_exo_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/al_exo_controller_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

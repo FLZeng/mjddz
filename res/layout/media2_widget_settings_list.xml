@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:layout_gravity="center_vertical" android:layout_width="@dimen/media2_widget_embedded_settings_width" android:layout_height="@dimen/media2_widget_settings_height" android:divider="@null" android:dividerHeight="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

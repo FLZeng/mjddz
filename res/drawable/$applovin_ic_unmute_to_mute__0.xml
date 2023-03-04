@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="mutestrike" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:name="strike_thru_path" android:fillColor="#ffb3bac2" android:pathData="M 3 4.27 L 4.27 3 L 4.27 3 L 3 4.27 Z" android:strokeWidth="1.0" />
+    <clip-path android:name="left_corner_mask" android:pathData="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 7 9 L 7.365 8.635 L 7.73 9 Z" />
+    <clip-path android:name="right_corner_mask" android:pathData="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 7.365 8.635 L 7 9 L 7.73 9 Z" />
+    <clip-path android:name="strike_thru_mask" android:pathData="M 5.54 1.73 L 4.27 3 L 4.27 3 L 5.54 1.73 Z" />
+    <path android:name="volume_path" android:fillColor="#ffb3bac2" android:pathData="M 3 9 L 3 15 L 7 15 L 12 20 L 12 4 L 7 9 L 3 9 Z M 16.5 12 C 16.5 10.23 15.48 8.71 14 7.97 L 14 16.02 C 15.48 15.29 16.5 13.77 16.5 12 Z M 14 3.23 L 14 5.29 C 16.89 6.15 19 8.83 19 12 C 19 15.17 16.89 17.85 14 18.71 L 14 20.77 C 18.01 19.86 21 16.28 21 12 C 21 7.72 18.01 4.14 14 3.23 Z" android:strokeWidth="1.0" />
+</vector>

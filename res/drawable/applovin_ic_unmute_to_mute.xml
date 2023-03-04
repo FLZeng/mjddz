@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$applovin_ic_unmute_to_mute__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="strike_thru_path" android:animation="@drawable/$applovin_ic_unmute_to_mute__1" />
+    <target android:name="strike_thru_mask" android:animation="@drawable/$applovin_ic_unmute_to_mute__2" />
+    <target android:name="left_corner_mask" android:animation="@drawable/$applovin_ic_unmute_to_mute__3" />
+    <target android:name="right_corner_mask" android:animation="@drawable/$applovin_ic_unmute_to_mute__4" />
+</animated-vector>

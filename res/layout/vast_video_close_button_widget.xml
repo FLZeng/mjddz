@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mopub_vast_close_button_image_view" android:paddingLeft="@dimen/close_button_image_padding_bottom_left" android:paddingTop="@dimen/close_button_image_padding_top_right" android:paddingRight="@dimen/close_button_image_padding_top_right" android:paddingBottom="@dimen/close_button_image_padding_bottom_left" android:layout_width="@dimen/close_button_widget_height" android:layout_height="@dimen/close_button_widget_height" android:src="@drawable/ic_mopub_skip_button" android:layout_alignParentRight="true" />
+    <TextView android:textSize="@dimen/close_button_text_size" android:typeface="normal" android:textColor="@color/close_button_text_color" android:ellipsize="end" android:id="@id/mopub_vast_close_button_text_view" android:paddingTop="@dimen/close_button_edge_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/close_button_text_right_margin" android:text="@string/close_button_default_text" android:maxLines="1" android:layout_toLeftOf="@id/mopub_vast_close_button_image_view" android:layout_centerVertical="true" android:fontFamily="@string/close_button_type_face" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="320.0dip" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/applovin_native_icon_and_text_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/applovin_native_cta_button" android:layout_toStartOf="@id/applovin_native_cta_button" layout="@layout/max_native_ad_banner_icon_and_text_layout" />
+    <Button android:textSize="15.0sp" android:id="@id/applovin_native_cta_button" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton" />
+</RelativeLayout>

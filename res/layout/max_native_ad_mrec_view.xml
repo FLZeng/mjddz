@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="300.0dip" android:layout_height="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/applovin_native_icon_and_text_layout" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" layout="@layout/max_native_ad_banner_icon_and_text_layout" />
+    <FrameLayout android:id="@id/applovin_native_media_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_above="@id/applovin_native_cta_button" android:layout_below="@id/applovin_native_icon_and_text_layout" />
+    <Button android:textSize="17.0sp" android:id="@id/applovin_native_cta_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentBottom="true" style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton" />
+</RelativeLayout>

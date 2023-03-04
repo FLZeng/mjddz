@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:background="@color/media2_widget_music_view_default_background" android:padding="@dimen/media2_widget_music_view_full_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/album" android:layout_width="@dimen/media2_widget_music_view_full_image_size" android:layout_height="@dimen/media2_widget_music_view_full_image_size" android:layout_marginRight="@dimen/media2_widget_music_view_image_title_gap" android:src="@drawable/media2_widget_ic_default_album_image" android:layout_marginEnd="@dimen/media2_widget_music_view_image_title_gap" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/media2_widget_music_view_landscape_text_minimum_width">
+        <TextView android:textSize="@dimen/media2_widget_music_view_title_text_size" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mcv2_music_title_unknown_text" />
+        <TextView android:textSize="@dimen/media2_widget_music_view_artist_text_size" android:textColor="#ffbbbbbb" android:id="@id/artist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mcv2_music_artist_unknown_text" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="#cc000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/al_exo_prev" style="@style/AppLovinExoMediaButton.Previous" />
+        <ImageButton android:id="@id/al_exo_rew" style="@style/AppLovinExoMediaButton.Rewind" />
+        <ImageButton android:id="@id/al_exo_shuffle" style="@style/AppLovinExoMediaButton" />
+        <ImageButton android:id="@id/al_exo_repeat_toggle" style="@style/AppLovinExoMediaButton" />
+        <ImageButton android:id="@id/al_exo_play" style="@style/AppLovinExoMediaButton.Play" />
+        <ImageButton android:id="@id/al_exo_pause" style="@style/AppLovinExoMediaButton.Pause" />
+        <ImageButton android:id="@id/al_exo_ffwd" style="@style/AppLovinExoMediaButton.FastForward" />
+        <ImageButton android:id="@id/al_exo_next" style="@style/AppLovinExoMediaButton.Next" />
+        <ImageButton android:id="@id/al_exo_vr" style="@style/AppLovinExoMediaButton.VR" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffbebebe" android:id="@id/al_exo_position" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <View android:id="@id/al_exo_progress_placeholder" android:layout_width="0.0dip" android:layout_height="26.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffbebebe" android:id="@id/al_exo_duration" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

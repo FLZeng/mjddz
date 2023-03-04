@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/al_exo_setting_width" android:minHeight="@dimen/al_exo_settings_height" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/exo_icon" android:layout_width="@dimen/al_exo_settings_icon_size" android:layout_height="@dimen/al_exo_settings_icon_size" android:layout_marginLeft="8.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="8.0dip" />
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:minHeight="@dimen/al_exo_settings_height" android:layoutDirection="locale" android:paddingEnd="4.0dip">
+        <TextView android:textSize="@dimen/al_exo_settings_main_text_size" android:textColor="@color/al_exo_white" android:id="@id/exo_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" />
+        <TextView android:textSize="@dimen/al_exo_settings_sub_text_size" android:textColor="@color/al_exo_white_opacity_70" android:id="@id/exo_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" />
+    </LinearLayout>
+</LinearLayout>

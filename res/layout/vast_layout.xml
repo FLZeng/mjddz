@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.media2.widget.VideoView android:id="@id/mopub_vast_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.mopub.mobileads.VastVideoGradientStripWidget android:id="@id/mopub_vast_top_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/gradient_strip_height" android:layout_alignParentTop="true" app:gradientOrientation="top_bottom" />
+    <com.mopub.mobileads.VastVideoGradientStripWidget android:id="@id/mopub_vast_bottom_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/gradient_strip_height" android:layout_above="@id/mopub_vast_progress_bar" app:gradientOrientation="bottom_top" />
+    <com.mopub.mobileads.VastVideoProgressBarWidget android:id="@id/mopub_vast_progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/progress_bar_height" android:layout_alignParentBottom="true" />
+    <com.mopub.mobileads.RadialCountdownWidget android:id="@id/mopub_vast_radial_countdown" android:padding="@dimen/radial_countdown_padding" android:layout_width="@dimen/radial_countdown_side_length" android:layout_height="@dimen/radial_countdown_side_length" android:layout_marginTop="@dimen/radial_countdown_top_margin" android:layout_marginRight="@dimen/radial_countdown_right_margin" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <com.mopub.mobileads.VastVideoCloseButtonWidget android:id="@id/mopub_vast_close_button" android:layout_width="wrap_content" android:layout_height="@dimen/close_button_widget_height" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <com.mopub.mobileads.VideoCtaButtonWidget android:id="@id/mopub_vast_cta_button" android:layout_width="@dimen/cta_button_width" android:layout_height="@dimen/cta_button_height" android:layout_margin="@dimen/cta_button_margin" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

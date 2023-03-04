@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/listView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ad_presenter_view" android:layout_alignParentTop="true" layout="@layout/mediation_debugger_list_view" />
+    <RelativeLayout android:id="@id/ad_presenter_view" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignParentBottom="true" android:elevation="3.0dip">
+        <TextView android:id="@id/status_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:layout_above="@id/ad_control_button" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton android:id="@id/ad_control_button" android:layout_width="@dimen/applovin_sdk_adControlButton_width" android:layout_height="@dimen/applovin_sdk_adControlButton_height" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

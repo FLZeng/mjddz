@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale android:scaleWidth="100%" android:scaleHeight="100%" android:scaleGravity="center" android:level="10000"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="oval">
+        <solid android:color="#ffffffff" />
+        <size android:height="@dimen/media2_widget_custom_progress_thumb_size" android:width="@dimen/media2_widget_custom_progress_thumb_size" />
+    </shape>
+</scale>

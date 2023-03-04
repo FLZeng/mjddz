@@ -1,0 +1,75 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: mjddz_3.2.02.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- jpg
+- assets/assets/internal/index.4dc8c.jsc
+- assets/assets/resources/index.3c79f.jsc
+- mp3
+- assets/src/cocos2d-jsb.4dd72.jsc
+- assets/src/physics.0ee24.jsc
+- assets/src/settings.826bd.jsc
+- assets/src/assets/script/plugin/protobuf.3de78.jsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  LICENSE-junit.txt: '8'
+  androidsupportmultidexversion.txt: '0'
+  billing.properties: '8'
+  firebase-analytics.properties: '8'
+  firebase-annotations.properties: '8'
+  firebase-common.properties: '8'
+  firebase-components.properties: '8'
+  firebase-crashlytics-ndk.properties: '8'
+  firebase-crashlytics.properties: '8'
+  firebase-datatransport.properties: '8'
+  firebase-encoders-json.properties: '8'
+  firebase-encoders-proto.properties: '8'
+  firebase-encoders.properties: '8'
+  firebase-iid-interop.properties: '8'
+  firebase-installations-interop.properties: '8'
+  firebase-installations.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  firebase-messaging.properties: '8'
+  play-services-ads-base.properties: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-ads-lite.properties: '8'
+  play-services-ads.properties: '8'
+  play-services-appset.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-cloud-messaging.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tasks.properties: '8'
+  transport-api.properties: '8'
+  transport-backend-cct.properties: '8'
+  transport-runtime.properties: '8'
+  user-messaging-platform.properties: '8'
+  junit/runner/logo.gif: '0'
+  junit/runner/smalllogo.gif: '0'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+  org/cocos2dx/okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0
+versionInfo:
+  versionCode: '63'
+  versionName: 3.2.02

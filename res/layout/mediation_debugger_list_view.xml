@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:id="@id/listView" android:background="@color/applovin_sdk_listViewBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:scrollingCache="true" android:divider="@color/applovin_sdk_listViewBackground" android:dividerHeight="1.0dip" android:layout_weight="1.0" android:smoothScrollbar="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

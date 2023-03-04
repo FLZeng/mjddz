@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" style="@style/AppLovinExoStyledControls.Button.Center">
+        <Button android:id="@id/al_exo_ffwd_with_amount" android:background="@drawable/al_exo_styled_controls_fastforward" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" style="@style/AppLovinExoStyledControls.Button.Center.FfwdWithAmount" />
+    </FrameLayout>
+</merge>

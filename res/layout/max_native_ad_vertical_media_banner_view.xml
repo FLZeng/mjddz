@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="320.0dip" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/applovin_native_inner_parent_layout" android:layout_width="50.0dip" android:layout_height="320.0dip" android:transformPivotX="25.0dip" android:transformPivotY="25.0dip" android:rotation="270.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/applovin_native_cta_button" android:layout_alignParentTop="true">
+            <FrameLayout android:id="@id/applovin_native_options_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <FrameLayout android:id="@id/applovin_native_icon_view" style="@style/SmallIconView">
+                <ImageView android:id="@id/applovin_native_icon_image_view" style="@style/SmallIconView" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/applovin_native_media_content_view" style="@style/SmallIconView" />
+            <TextView android:layout_margin="2.0dip" style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallAdBadgeTextView" />
+            <TextView android:gravity="center" android:id="@id/applovin_native_title_text_view" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallVerticalTitleTextSize" />
+            <TextView android:gravity="center" android:id="@id/applovin_native_body_text_view" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.SmallVerticalBodyTextSize" />
+        </LinearLayout>
+        <Button android:textSize="12.0sp" android:id="@id/applovin_native_cta_button" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="3.0dip" android:minWidth="0.0dip" android:minHeight="0.0dip" android:singleLine="false" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" style="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center|right|top" android:id="@id/mopub_closeable_layout_close_button" android:background="@android:color/transparent" android:padding="@dimen/closeable_layout_button_padding" android:layout_width="@dimen/closeable_layout_region_size" android:layout_height="@dimen/closeable_layout_region_size" android:src="@drawable/ic_mopub_close_button" android:scaleType="fitCenter" />
+</merge>

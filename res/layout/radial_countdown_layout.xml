@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mopub.mobileads.RadialCountdownWidget android:layout_gravity="center|right|top" android:id="@id/mopub_fullscreen_radial_countdown" android:padding="@dimen/radial_countdown_padding" android:visibility="visible" android:layout_width="@dimen/radial_countdown_side_length" android:layout_height="@dimen/radial_countdown_side_length" android:layout_marginTop="@dimen/close_button_edge_margin" android:layout_marginRight="@dimen/close_button_edge_margin" />
+</merge>
