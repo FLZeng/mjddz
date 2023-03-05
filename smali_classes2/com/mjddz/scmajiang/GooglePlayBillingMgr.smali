@@ -1562,7 +1562,7 @@
     .line 2
     invoke-static {v1, p1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    const/4 p1, -0x1
+    const/4 p1, 0x1
 
     const-string p2, "billing client not initialized"
 

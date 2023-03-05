@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: mjddz_3.2.02.apk
+apkFileName: mjddz_3.2.02.1.apk
 compressionType: false
 doNotCompress:
 - resources.arsc
@@ -72,4 +72,4 @@ usesFramework:
 version: 2.7.0
 versionInfo:
   versionCode: '63'
-  versionName: 3.2.02
+  versionName: 3.2.02.1
